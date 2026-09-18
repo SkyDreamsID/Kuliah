@@ -3,11 +3,11 @@
 float sisi, tinggi;
 float volume;
 
-void main(){
-    printf("Masukkan Sisi: ");
+int main(){
+    printf("Masukkan Sisi   : ");
     scanf("%f", &sisi);
 
-    printf("Masukkan Tinggi: ");
+    printf("Masukkan Tinggi : ");
     scanf("%f", &tinggi);
 
     volume = (1.0 / 3.0) * (sisi * sisi) * tinggi;
