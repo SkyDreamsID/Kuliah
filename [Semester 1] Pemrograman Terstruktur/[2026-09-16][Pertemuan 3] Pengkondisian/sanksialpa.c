@@ -7,16 +7,16 @@ void main(){
     scanf("%d", &jam_alpa);
 
     if(jam_alpa > 55){
-        printf("DO");
+        printf("Drop Out");
     }
     else if(jam_alpa >= 47){
-        printf("Surat Peringatan 3!");
+        printf("Surat Peringatan 3");
     }
     else if(jam_alpa >= 36){
-        printf("Surat Peringatan 2!");
+        printf("Surat Peringatan 2");
     }
     else if(jam_alpa >= 18){
-        printf("Surat Peringatan 1!");
+        printf("Surat Peringatan 1");
     }
     else{
         printf("Dibawah 18 Jam tidak ada Sanksi");
