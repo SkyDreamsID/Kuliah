@@ -6,7 +6,10 @@ void main(){
     printf("Masukkan Nilai Anda : ");
     scanf("%d", &nilai);
 
-    if(nilai > 82){
+    if(nilai > 100){
+        printf("Nilai lebih dari 100");
+    }
+    else if(nilai > 82){
         printf("Sangat Baik");
     }
     else if(nilai > 75){

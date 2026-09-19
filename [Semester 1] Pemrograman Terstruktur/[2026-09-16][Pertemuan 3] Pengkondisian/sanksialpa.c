@@ -1,21 +1,21 @@
 #include <stdio.h>
 
-int jam_alpha;
+int jam_alpa;
 
 void main(){
-    printf("Masukkan Jam Alpha : ");
-    scanf("%d", &jam_alpha);
+    printf("Masukkan Jam Alpa : ");
+    scanf("%d", &jam_alpa);
 
-    if(jam_alpha > 55){
+    if(jam_alpa > 55){
         printf("DO");
     }
-    else if(jam_alpha >= 47){
+    else if(jam_alpa >= 47){
         printf("Surat Peringatan 3!");
     }
-    else if(jam_alpha >= 36){
+    else if(jam_alpa >= 36){
         printf("Surat Peringatan 2!");
     }
-    else if(jam_alpha >= 18){
+    else if(jam_alpa >= 18){
         printf("Surat Peringatan 1!");
     }
     else{
