@@ -1,0 +1,7 @@
+tugas 3
+
+buat program menghitung Resistansi seri & paralel
+
+input(jumlah resistor, nilai resistor)
+
+output(hasil perhitungan resistansi)
