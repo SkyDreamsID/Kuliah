@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int jumlah_resistor;
-int nilai_resistor;
 int i;
+float nilai_resistor;
 float r_total;
 
 void main(){
@@ -10,7 +10,7 @@ void main(){
     scanf("%d", &jumlah_resistor);
     for(i = 1; i <= jumlah_resistor; i++){
         printf("Masukkan nilai Resistor %d : ", i);
-        scanf("%d", &nilai_resistor);
+        scanf("%f", &nilai_resistor);
 
         r_total += nilai_resistor;
     }
